@@ -4,7 +4,7 @@ touch ~/.zshrc
 
 sudo apt-get install zsh -y
 
-zsh
+# Switch to zsh and run these...
 
 rm ~/.zshrc
 
@@ -17,4 +17,4 @@ done
 
 sudo chsh -s /bin/zsh ubuntu
 
-echo "copy zshrc from existing machine" 
+# Now, copy .zshrc and ~/.zpreztorc (TODO: make these curl from a neena.me url)
